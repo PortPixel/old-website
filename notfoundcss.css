@@ -1,0 +1,466 @@
+* {
+   margin: 0px;
+   padding: 0px;
+}
+
+
+ .navbar li {
+  display: inline;
+}
+
+.navbar {
+   background-color:#f2f2f2;
+   height: 44px;
+
+}
+
+
+
+.clearfix:after {
+    display:inline;
+    clear:both;
+}
+ 
+
+.menu-wrap {
+    width:100%;
+    box-shadow:0px 1px 3px rgba(0,0,0,0.2);
+
+}
+ 
+.menu {
+    width:100%;
+    margin:0px auto;
+}
+ 
+.menu li {
+    margin:0px;
+    list-style:none;
+    font-family: 'Shift', sans-serif;
+}
+ 
+.menu a {
+    transition:all linear 0.15s;
+    color:#919191;
+}
+ 
+.menu li:hover > a, .menu .current-item > a {
+    text-decoration:none;
+    color:f2f2f2;
+}
+ 
+.menu .arrow {
+    font-size:11px;
+    line-height:0%;
+}
+ 
+
+.menu > ul > li {
+    float:left;
+    display:inline-block;
+    position:relative;
+    font-size:19px;
+}
+ 
+.menu > ul > li > a {
+    padding:10px 40px;
+    display:inline-block;
+    text-shadow:0px 1px 0px rgba(0,0,0,0.4);
+}
+ 
+.menu > ul > li:hover > a, .menu > ul > .current-item > a {
+    background:#e6e6e6;
+}
+ 
+
+.menu li:hover .sub-menu {
+    z-index:1;
+    opacity:1;
+}
+ 
+.sub-menu {
+    width:160%;
+    padding:5px 0px;
+    position:absolute;
+    top:100%;
+    left:0px;
+    z-index:-1;
+    opacity:0;
+    transition:opacity linear 0.15s;
+    box-shadow:0px 2px 3px rgba(0,0,0,0.2);
+    background:#e6e6e6;
+}
+ 
+.sub-menu li {
+    display:block;
+    font-size:16px;
+}
+ 
+.sub-menu li a {
+    padding:10px 30px;
+    display:block;
+}
+ 
+.sub-menu li a:hover, .sub-menu .current-item a {
+    background:#d9d9d9;
+}
+
+
+
+.image {
+/*   height:360px */
+}
+
+
+img {
+	max-width: 100%;
+	height: auto;
+}
+
+.jumbotron {
+	height: 100px;
+	width: 75%;
+	padding:0px;
+	/*  background: url() no-repeat center center;*/
+	background-size: 35% auto;
+	display: table;
+	margin: auto auto;
+
+}
+
+.jumbotron .container {
+  position: relative;
+  top:10px;
+  text-align: center ;
+  overflow: auto;
+  back
+}
+
+.jumbotron h1 {
+  color: #000000;
+  font-size: 60px;  
+  font-family: 'Shift', sans-serif;
+  font-weight: bold;
+}
+
+
+.jumbotron p {
+  font-size: 30px;
+  color: #000000;
+}
+
+.searchtext h2 {
+  color: #000000;
+  font-size: 45px;  
+  font-family: 'Shift', sans-serif;
+  font-weight: bold;
+}
+
+.searchtext p{
+  color: #000000;
+  font-size: 15px;  
+  font-family: 'Shift', sans-serif;
+  font-weight: bold;
+}
+
+
+
+.searchtext {
+	position: relative;
+	top:0px;
+	text-align: center ;
+	overflow: auto;
+	height: 100px;
+	display: table;
+	margin: auto auto;
+
+}
+
+
+
+
+.learn-more {
+  background-color: #f7f7f7;
+  padding:14px 14px;
+  position: relative;
+  top:0px;
+  text-align: center ;
+  overflow: auto;
+  font-size: 20px;
+}
+
+.learn-more h3 {
+  font-family: 'Shift', sans-serif;
+  font-size: 35px;
+  font-weight: bold;
+  padding:20px 0px;
+}
+
+.learn-more a {
+  color: #00b0ff;
+  padding:15px 0px;
+}
+
+.learn more p {
+  padding:15px 0px;
+
+}
+
+
+/* Search bar */
+
+.footer-distributed{
+	background-color: #e6e6e6;
+	box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12);
+	box-sizing: border-box;
+	width: 100%;
+	font: bold 16px sans-serif;
+	text-align: left;
+
+	padding: 50px 60px;
+	margin-top: 0px;
+	overflow: hidden;
+	position:fixed;
+	bottom:0;
+
+}
+
+/* Footer left */
+
+.footer-distributed .footer-left{
+	float: left;
+}
+
+.footer-distributed .footer-links{
+	color:  #000000;
+	margin: 0 0 10px;
+	padding: 0;
+}
+
+.footer-distributed .footer-links a{
+	display:inline-block;
+	line-height: 1.8;
+	text-decoration: none;
+	color:  inherit;
+}
+
+.footer-distributed .footer-company-name{
+	color:  #8f9296;
+	font-size: 14px;
+	font-weight: normal;
+	margin: 0;
+}
+
+
+/* Footer right */
+
+.footer-distributed .footer-right{
+	float: right;
+}
+
+/* The search form */
+
+.searchbarnotfound form{
+	position: relative;
+}
+
+.searchbarnotfound form input{
+	display: block;
+	border-radius: 3px;
+	box-sizing: border-box;
+	background-color:  #d9d9d9;
+	box-shadow: 0 1px 0 0 rgba(255, 255, 255, 0.1);
+	border: none;
+
+	font: inherit;
+	font-size: 14px;
+	font-weight: normal;
+	color:  #000000;
+
+	width: 500px;
+	padding: 18px 50px 18px 18px;
+}
+
+.searchbarnotfound form input:focus{
+	outline: none;
+}
+
+/* Changing the placeholder color */
+
+.searchbarnotfound form input::-webkit-input-placeholder {
+	color:  #000000;
+}
+
+.searchbarnotfound form input::-moz-placeholder {
+	opacity: 1;
+	color:  #5c666b;
+}
+
+.searchbarnotfound form input:-ms-input-placeholder{
+	color:  #5c666b;
+}
+
+/* The magnify glass icon */
+
+.searchbarnotfound form i{
+	width: 18px;
+	height: 18px;
+	position: absolute;
+	top: 16px;
+	right: 18px;
+
+	color: #d1d2d2;
+	font-size: 18px;
+}
+
+
+
+
+/* Footer */
+
+
+
+
+.footer-distributed{
+	background-color: #e6e6e6;
+	box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12);
+	box-sizing: border-box;
+	width: 100%;
+	font: bold 16px sans-serif;
+	text-align: left;
+
+	padding: 50px 60px;
+	margin-top: 0px;
+	overflow: hidden;
+
+	positon: fixed;
+	bottom: 0;
+}
+
+/* Footer left */
+
+.footer-distributed .footer-left{
+	float: left;
+}
+
+.footer-distributed .footer-links{
+	color:  #000000;
+	margin: 0 0 10px;
+	padding: 0;
+}
+
+.footer-distributed .footer-links a{
+	display:inline-block;
+	line-height: 1.8;
+	text-decoration: none;
+	color:  inherit;
+}
+
+.footer-distributed .footer-company-name{
+	color:  #8f9296;
+	font-size: 14px;
+	font-weight: normal;
+	margin: 0;
+}
+
+
+/* Footer right */
+
+.footer-distributed .footer-right{
+	float: right;
+}
+
+/* The search form */
+
+.footer-distributed form{
+	position: relative;
+}
+
+.footer-distributed form input{
+	display: block;
+	border-radius: 3px;
+	box-sizing: border-box;
+	background-color:  #d9d9d9;
+	box-shadow: 0 1px 0 0 rgba(255, 255, 255, 0.1);
+	border: none;
+
+	font: inherit;
+	font-size: 14px;
+	font-weight: normal;
+	color:  #000000;
+
+	width: 500px;
+	padding: 18px 50px 18px 18px;
+}
+
+.footer-distributed form input:focus{
+	outline: none;
+}
+
+/* Changing the placeholder color */
+
+.footer-distributed form input::-webkit-input-placeholder {
+	color:  #000000;
+}
+
+.footer-distributed form input::-moz-placeholder {
+	opacity: 1;
+	color:  #5c666b;
+}
+
+.footer-distributed form input:-ms-input-placeholder{
+	color:  #5c666b;
+}
+
+/* The magnify glass icon */
+
+.footer-distributed form i{
+	width: 18px;
+	height: 18px;
+	position: absolute;
+	top: 16px;
+	right: 18px;
+
+	color: #d1d2d2;
+	font-size: 18px;
+}
+
+/* If you don't want the footer to be responsive, remove these media queries */
+
+@media (max-width: 1000px) {
+
+	.footer-distributed form input{
+		width: 300px;
+	}
+
+}
+
+@media (max-width: 800px) {
+
+	.footer-distributed{
+		padding: 30px;
+		text-align: center;
+		font: bold 14px sans-serif;
+	}
+
+	.footer-distributed .footer-company-name{
+		margin-top: 10px;
+		font-size: 12px;
+	}
+
+	.footer-distributed .footer-left,
+	.footer-distributed .footer-right{
+		float: none;
+		max-width: 300px;
+		margin: 0 auto;
+	}
+
+	.footer-distributed .footer-left{
+		margin-bottom: 20px;
+	}
+
+	.footer-distributed form input{
+		width: 100%;
+	}
+
+}
