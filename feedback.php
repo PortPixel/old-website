@@ -56,7 +56,7 @@
 
 // ------------- CONFIGURABLE SECTION ------------------------
 
-$mailto = 'profjck@gmail.com' ;
+$mailto = 'example@gmail.com' ;
 $subject = "Feedback Form" ;
 $formurl = "http://lifesanillusion.com/contact.html" ;
 $thankyouurl = "http://lifesanillusion.com/contact/thankyou.html" ;
